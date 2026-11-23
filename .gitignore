@@ -1,0 +1,11 @@
+bin/
+obj/
+dist/
+.vs/
+tools/inno/
+tools/inno-setup.exe
+tests/installed-smoke/
+tests/installer-smoke.log
+design-review/
+*.pdb
+__pycache__/

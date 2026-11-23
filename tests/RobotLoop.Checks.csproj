@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="..\Native.cs" Link="Native.cs" />
+    <Compile Include="..\MacroEngine.cs" Link="MacroEngine.cs" />
+    <Compile Include="..\GlobalHotkeys.cs" Link="GlobalHotkeys.cs" />
+    <Compile Include="..\Diagnostics.cs" Link="Diagnostics.cs" />
+    <Compile Include="..\MiniForm.cs" Link="MiniForm.cs" />
+    <Compile Include="..\Theme.cs" Link="Theme.cs" />
+    <Compile Include="..\MainForm.cs" Link="MainForm.cs" />
+    <Compile Include="..\IntervalDialog.cs" Link="IntervalDialog.cs" />
+    <Compile Include="..\Settings.cs" Link="Settings.cs" />
+    <EmbeddedResource Include="..\assets\icon-a-loop.ico" LogicalName="RobotLoop.AppIcon" />
+    <EmbeddedResource Include="..\assets\fonts\*.ttf" LogicalName="RobotLoop.Fonts.%(Filename)%(Extension)" />
+  </ItemGroup>
+</Project>
