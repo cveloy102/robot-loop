@@ -1,10 +1,23 @@
 # Robot Loop
 
-Небольшое нативное приложение для Windows: записывает движения и клики мыши и воспроизводит их по кругу с заданной паузой. Окно поверх остальных, тёмная и светлая темы, компактный режим только с таймером.
+Запишите движение мыши и повторяйте его с заданной паузой. Приложение работает на **Windows 10/11 x64**. Для первой проверки достаточно одного движения курсора.
 
-**[Скачать установщик](https://github.com/cveloy102/robot-loop/releases/latest)** · Windows 10/11 x64 · .NET включён в сборку
+**[Скачать установщик (EXE)](https://github.com/cveloy102/robot-loop/releases/download/v1.2.3/RobotLoop-Setup-1.2.3.exe)** · [Переносная версия (ZIP)](https://github.com/cveloy102/robot-loop/releases/download/v1.2.3/RobotLoop-1.2.3-win-x64-portable.zip) · [Все версии](https://github.com/cveloy102/robot-loop/releases)
 
-![Robot Loop](assets/screenshots/main-dark.png)
+## Первый запуск
+
+1. Установите Robot Loop и откройте окно. Нажмите **F6**, чтобы начать запись.
+2. Переместите курсор и снова нажмите **F6**, чтобы закончить запись.
+3. Нажмите **F7**. Курсор повторит движение. Ещё одно нажатие **F7** остановит повтор.
+
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="assets/screenshots/main-light.png">
+  <img src="assets/screenshots/main-dark.png" width="360" alt="Окно Robot Loop с клавишами записи и повтора и длительностью паузы">
+</picture>
+
+**Если курсор попадает не туда**, верните окна на прежние места или запишите движение заново. В [таблице управления](#управление) можно посмотреть, как сменить горячие клавиши.
+
+[Сообщить об ошибке](https://github.com/cveloy102/robot-loop/issues/new) · [Каталог приложений](https://cveloy102.github.io/#robot-loop)
 
 ## Управление
 
